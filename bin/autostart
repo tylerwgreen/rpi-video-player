@@ -17,7 +17,4 @@ sudo killall mpg123
 #killall mpg123.bin
 echo "#bash - starting node"
 # add & to the end of your command to tell bash to fork the process off in the background
-sudo node $APP_DIR/app.js &
-#echo "#bash - starting chrome"
-#echo "#bash - please wait..."
-#chromium-browser -incognito --kiosk 127.0.0.1:5000
+sudo node $APP_DIR/app.js
