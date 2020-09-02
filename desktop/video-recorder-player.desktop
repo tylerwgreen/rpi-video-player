@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Video Player
+Comment=Video Player
+Icon=/home/pi/projects/rpi-video-player/assets/icon/video-player-icon.png
+Exec=/home/pi/projects/rpi-video-player/bin/autostart
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;
