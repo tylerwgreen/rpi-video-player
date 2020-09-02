@@ -7,6 +7,10 @@ DISPLAY=5
 #DISPLAY=4
 AUDIO_OUTPUT=local
 # AUDIO_OUTPUT=hdmi
+# AUDIO_VOL: 0 = Default, -3000 = 50%
+#AUDIO_VOL=0
+#AUDIO_VOL=-3000
+AUDIO_VOL=-1500
 #ASPECT=letterbox # this was okay with projector in full mode
 #ASPECT=fill # definitely not
 # stretch was best with projectoer in 16:9 mode
@@ -17,5 +21,5 @@ killall omxplayer.bin
 echo "#bash - Projector projecting $FILE"
 #omxplayer -o $AUDIO_OUTPUT --display=$DISPLAY --loop -local --no-osd $1
 #omxplayer -o $AUDIO_OUTPUT --display=$DISPLAY $FILE
-omxplayer -o $AUDIO_OUTPUT --display=$DISPLAY --aspect-mode $ASPECT $FILE
+omxplayer -o $AUDIO_OUTPUT --display=$DISPLAY --aspect-mode $ASPECT -b --vol $AUDIO_VOL $FILE
 echo "#bash - Projector project end"
