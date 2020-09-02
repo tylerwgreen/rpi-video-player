@@ -1,0 +1,10 @@
+----- Change Audio Playback -----
+
+/home/pi/rpi-video-player/bin/projector-project
+
+----- Change Video Playback -----
+
+/home/pi/rpi-video-player/bin/projector-project
+
+----- Play Video File -----
+omxplayer __FILENAME__

@@ -1,0 +1,15 @@
+{
+	"name": "rpi-video-player",
+	"niceName": "RPI Video Player",
+	"license": "UNLICENSED",
+	"version": "1.0.0",
+	"private": true,
+	"description": "RPI Video Player",
+	"author": {
+		"name": "Tyler Green",
+		"email": "freshgreenmedia@gmail",
+		"url": "http://freshgreenmedia.com/"
+	},
+	"dependencies": {
+	}
+}
